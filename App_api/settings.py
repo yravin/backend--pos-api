@@ -131,8 +131,11 @@ CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:5173",
     "http://localhost:5174",    
     "http://127.0.0.1:5174",
-    "https://app-api.onrender.com"
+    "https://backend-pos-api.onrender.com",
+    "https://your-react-app.vercel.app"
+
 ]
+ALLOWED_HOSTS = ['backend-pos-api.onrender.com', 'localhost', '127.0.0.1']
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
